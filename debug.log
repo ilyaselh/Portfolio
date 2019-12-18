@@ -1,0 +1,11 @@
+[1106/130552.947:ERROR:process_info.cc(359)] UncheckedAllocate
+[1106/130552.947:ERROR:process_info.cc(359)] UncheckedAllocate
+[1106/130559.091:ERROR:process_info.cc(359)] UncheckedAllocate
+[1106/131331.295:ERROR:process_info.cc(359)] UncheckedAllocate
+[1107/185614.702:ERROR:process_info.cc(359)] UncheckedAllocate
+[1211/123204.095:ERROR:settings.cc(320)] Settings magic is not 1129342067
+[1211/123204.101:ERROR:crash_report_database_win.cc(428)] unexpected header
+[1211/124204.102:ERROR:crash_report_database_win.cc(428)] unexpected header
+[1211/124204.103:ERROR:crash_report_database_win.cc(428)] unexpected header
+[1211/124704.101:ERROR:crash_report_database_win.cc(428)] unexpected header
+[1211/134203.503:ERROR:crash_report_database_win.cc(428)] unexpected header
