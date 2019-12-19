@@ -10,8 +10,8 @@ const ButtonStyled = styled.button`
   color: ${props => (props.inverse ? "#000000" : "#ffffff")};
   cursor: pointer;
   background: ${props => (props.inverse ? "#dddddd" : "#0092fe")};
-  padding: 0.3rem 2rem;
-  margin-left: 1rem;
+  padding: ${props => (props.inverse ? "0.3rem 2rem" : "0.3rem 0rem")};
+  margin-left: ${props => (props.inverse ? "1rem" : "0rem")};
   border-radius: 1.5rem;
   box-shadow: ${props =>
     props.inverse ? null : "0px 0px 25px 5px rgba(0, 147, 255, 0.25)"};

@@ -83,7 +83,7 @@ export default class ContactForm extends React.Component {
                   className="form-control bg-dark"
                   placeholder="Enter your full name"
                   id="name"
-                  style={{ border: "none" }}
+                  style={{ border: "none", color: "white" }}
                   onChange={this.handleChange.bind(this, "name")}
                 />
               </div>
@@ -103,7 +103,7 @@ export default class ContactForm extends React.Component {
                       className="form-control bg-dark"
                       placeholder="Enter your E-mail address"
                       id="email"
-                      style={{ border: "none" }}
+                      style={{ border: "none", color: "white" }}
                       onChange={this.handleChange.bind(this, "email")}
                     />
                   </div>
@@ -118,7 +118,7 @@ export default class ContactForm extends React.Component {
                   Message
                 </label>
                 <textarea
-                  style={{ border: "none" }}
+                  style={{ border: "none", color: "white" }}
                   rows="6"
                   name="messsage"
                   type="text"

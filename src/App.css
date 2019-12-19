@@ -1,3 +1,11 @@
 * {
   font-family: Montserrat;
 }
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover
+  input:-webkit-autofill:focus
+  input:-webkit-autofill:active {
+  box-shadow: 0 0 0 30px #343a40 inset !important;
+  -webkit-text-fill-color: white !important;
+}
