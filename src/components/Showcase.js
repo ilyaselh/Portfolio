@@ -4,7 +4,7 @@ import { ButtonStyled } from "./styled components/Button1";
 
 export default function Showcase() {
   const style = {
-    paddingTop: "10rem"
+    paddingTop: "30vh"
   };
 
   return (
@@ -13,14 +13,23 @@ export default function Showcase() {
         <div className="col">
           <h1 className="text-white mb-2">
             Hello, I'm{" "}
-            <span style={{ color: "#0092fe", fontWeight: "300" }}>
+            <span style={{ color: "#0092fe", fontWeight: "400" }}>
               Ilyas Harrak.
             </span>
           </h1>
-          <h1 className="mb-5">A full-stack web developer</h1>
-          <ScrollIntoView selector=".contact">
-            <ButtonStyled>Contact me</ButtonStyled>
-          </ScrollIntoView>
+          <h1 className="mb-5">I'm a Full-stack web developer</h1>
+          <div className="row">
+            <div className="col text-right">
+              <ScrollIntoView selector=".contact">
+                <ButtonStyled>Contact me</ButtonStyled>
+              </ScrollIntoView>
+            </div>
+            <div className="col text-left">
+              <ScrollIntoView selector=".portfolio">
+                <ButtonStyled inverse>Portfolio</ButtonStyled>
+              </ScrollIntoView>
+            </div>
+          </div>
         </div>
       </div>
     </div>

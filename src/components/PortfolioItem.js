@@ -15,10 +15,10 @@ export default function PortfolioItem(props) {
             {props.title}
           </h2>
           <p className="mb-5">{props.text}</p>
-          <a href="http://www.google.com" target="_blank">
+          <a href="https://powerliftlogger.herokuapp.com/" target="_blank">
             <ButtonStyled sm>see live</ButtonStyled>
           </a>
-          <a href="#" target="_blank">
+          <a href="https://github.com/ilyaselh/powerlogger" target="_blank">
             <ButtonStyled sm inverse>
               source code
             </ButtonStyled>

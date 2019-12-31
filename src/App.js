@@ -1,7 +1,6 @@
 import React from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./App.css";
-import Navbar from "./components/Navbar";
 import Showcase from "./components/Showcase";
 import PortfolioItem from "./components/PortfolioItem";
 import ContactForm from "./components/ContactForm";
@@ -27,7 +26,6 @@ function App() {
       style={{ fontFamily: "Raleway", background: "#131313" }}
     >
       <div style={style} className="top">
-        <Navbar />
         <Showcase />
       </div>
 
