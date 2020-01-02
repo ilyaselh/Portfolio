@@ -2,10 +2,10 @@ import styled from "styled-components";
 
 const ButtonStyled = styled.button`
   transition: all 0.25s ease-in-out;
-  height: ${props => (props.sm ? "2rem" : "3rem")};
+  height: ${props => (props.sm ? "2rem" : "2.75rem")};
   width: ${props => (props.sm ? "12rem" : "15rem")};
-  font-size: ${props => (props.sm ? "1rem" : "1.3rem")};
-  font-weight: ${props => (props.sm ? "500" : "600")};
+  font-size: ${props => (props.sm ? "1rem" : "1.2rem")};
+  font-weight: ${props => (props.sm ? "500" : "500")};
   border-style: none;
   color: ${props => (props.inverse ? "#000000" : "#ffffff")};
   cursor: pointer;

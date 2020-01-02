@@ -1,12 +1,14 @@
 import React from "react";
 import * as emailjs from "emailjs-com";
 import { ButtonStyled } from "./styled components/Button1";
+import { Alert } from "reactstrap";
 
 export default class ContactForm extends React.Component {
   state = {
     name: "",
     email: "",
-    message: ""
+    message: "",
+    visible: false
   };
 
   handleSubmit = e => {
@@ -28,6 +30,9 @@ export default class ContactForm extends React.Component {
 
     console.log(this.state.name);
     this.resetForm();
+    this.setState({
+      visible: true
+    });
   };
 
   resetForm = () => {
@@ -37,6 +42,10 @@ export default class ContactForm extends React.Component {
       phone: "",
       message: ""
     });
+  };
+
+  onDismiss = () => {
+    this.setState({ visible: false });
   };
 
   handleChange = (param, e) => {
@@ -59,6 +68,14 @@ export default class ContactForm extends React.Component {
 
     return (
       <div className="container pt-4 pb-5 contact">
+        <Alert
+          color="primary"
+          isOpen={this.state.visible}
+          toggle={this.onDismiss}
+        >
+          Your message has been sent successfully. I will reply to you as soon
+          as possible.
+        </Alert>
         <div className="row h-100">
           <div className="col-8 offset-md-2" style={leftStyle}>
             <h3 className="text-center">Contact me</h3>

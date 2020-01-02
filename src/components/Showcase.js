@@ -11,13 +11,15 @@ export default function Showcase() {
     <div className="container text-center" style={style}>
       <div className="row">
         <div className="col">
-          <h1 className="text-white mb-2">
+          <h1 className="text-white mb-2" style={{ fontWeight: "400" }}>
             Hello, I'm{" "}
-            <span style={{ color: "#0092fe", fontWeight: "400" }}>
+            <span style={{ color: "#0092fe", fontWeight: "300" }}>
               Ilyas Harrak.
             </span>
           </h1>
-          <h1 className="mb-5">I'm a Full-stack web developer</h1>
+          <h1 className="mb-5" style={{ fontWeight: "400" }}>
+            I'm a Full-stack web developer
+          </h1>
           <div className="row">
             <div className="col text-right">
               <ScrollIntoView selector=".contact">

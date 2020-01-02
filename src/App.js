@@ -45,21 +45,21 @@ function App() {
               <Card
                 pic={desk}
                 title="Plan & Design"
-                text="lorem ipsum some text here i cant think of anything right now i fucked the queen"
+                text="Clean, modern designs, optimized for performance and search engines."
               />
             </div>
             <div className="col">
               <Card
                 pic={pc}
-                title="Web development"
-                text="lorem ipsum some text here i cant think of anything right now i fucked the queen"
+                title="Devolopment"
+                text="Easy, Clean, and modern websites to convert your visitors to clients"
               />
             </div>
             <div className="col">
               <Card
                 pic={phone}
                 title="Mobile Friendly"
-                text="lorem ipsum some text here i cant think of anything right now i fucked the queen"
+                text="A responsive design makes your website accessible to all users, regardless of their device."
               />
             </div>
           </div>
@@ -88,7 +88,7 @@ function App() {
       <div
         style={{
           borderBottom: "1px solid #0e83ff",
-          marginBottom: "4rem",
+          marginBottom: "1.5rem",
           boxShadow: "0px 0px 15px 5px rgba(0, 147, 255, 0.25)"
         }}
       ></div>
